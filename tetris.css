@@ -1,0 +1,41 @@
+.screen{
+    background: #efd5f5;
+    display: flex;
+    flex-wrap: wrap;
+}
+#box {
+    display: flex;
+}
+.item{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    outline: 1px solid #bc97c4;
+}
+.item.active{
+    background-color: #C6808C;
+}
+#startGame {
+    width: 70px;
+    height: 20px;
+    margin-left: 10px;
+    color: #44364B;
+    background: #FFEBCD;
+}
+.btn-container {
+    text-align: center;
+}
+
+.forFreezing {
+    display: none;
+}
+#score {
+    height: 19px;
+    width: 68px;
+    background: #FFEBCD;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #44364B;
+    border: solid 0.5px black;
+    font-size: 17px;
+}
